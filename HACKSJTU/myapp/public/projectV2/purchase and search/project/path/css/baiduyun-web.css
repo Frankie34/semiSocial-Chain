@@ -1,0 +1,456 @@
+/*清除默认样式*/
+a{
+	text-decoration: none;
+	color: #000;
+}
+dt,dl,dd{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+body{
+	background-color: #eff4f8;
+	margin: 0;
+}
+input{
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+body{
+	min-width:1400px; 
+	overflow: hidden;
+}
+/*工具样式*/
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.mr5{
+	margin-right: 5px;
+}
+.mr10{
+	margin-right: 10px;
+}
+.mr20{
+	margin-right: 20px;
+}
+.ml10{
+	margin-left: 10px;
+}
+.ml30{
+	margin-left:30px;
+}
+.mt10{
+	margin-top: 10px;
+}
+/*	头部样式*/
+.diy-font{
+	font-family: 'Conv_diy-font';
+	
+}
+header{
+	width: 100%;
+	height: 55px;
+}
+.head-list-left{
+	height: 32px;
+	float: left;
+}
+.main-logo{
+	width: 142px;
+	height: 0;
+	padding-top: 32px;
+	background: url(../img/main-logo.png) no-repeat;
+	overflow: hidden;
+	position: relative;
+	float: left;
+	margin-right: 20px;
+}
+.main-logo a{
+	width: 142px;
+	height: 0px;
+	padding-top: 32px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.head-list-left dd{
+	width: 80px;
+	height: 32px;
+	float: left;
+	text-align: center;
+	font: 17px/32px '微软雅黑';
+}
+.head-list-left dd a{
+	position: relative;
+}
+.line{
+	width:100%;
+	height: 4px;
+	background-color: lightblue;
+	border-radius: 20px;
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+}
+
+
+.head-list-right{
+	height: 32px;
+	float: right;
+}
+.head-list-right li{
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+.head-ad a{
+	font: 10px/32px '微软雅黑';
+	text-decoration: underline;
+	color: red;
+}
+.photo{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	overflow: hidden;
+	border:1px solid lightgray;
+}
+.photo img{
+	width: 100%;
+	height: 100%;
+}
+.name{
+	font: 10px/32px '微软雅黑';
+	color: #000;
+}
+.vip,.jt,.tz,.yj,.pf{
+	font-size: 20px;
+	line-height: 32px;
+	font-weight: bold;
+	color: gray;
+}
+.vip-center{
+	width: 80px;
+	height: 22px;
+	font: 15px/22px '微软雅黑';
+	color: #fff;
+	text-align: center;
+	background-color: red;
+	border-radius: 20px;
+	margin-top: 5px;
+	float: right;
+}
+.name-info{
+	position: relative;
+}
+.info-list{
+	width: 245px;
+	height: 339px;
+	z-index: 111;
+	position: absolute;
+	left: 0;
+	bottom: -339px;
+	display: none;
+	border: 1px solid lightgray;
+	background-color: #fff;
+}
+
+
+/*内容区左侧列表*/
+.body{
+	width: 100%;
+	height: 900px;
+	position: relative;
+	font: 15px/50px '微软雅黑';
+}
+.body-list{
+	width: 13%;
+	height: 100%;
+}
+.body-list li:hover{
+	background-color: rgba(0,0,0,0.1);
+}
+.active2{
+	background-color: rgba(0,0,0,0.1);
+}
+
+
+
+
+/*内容区右侧列表*/
+.content{
+	width: 86.5%;
+	height: 100%;
+	background-color: #fff;
+	border:1px solid lightgray;
+}
+.content-head{
+	width: 100%;
+	height: 60px;
+}
+.content-list{
+	width: 50%;
+	height: 60px;
+	float: left;
+}
+.content-list li{
+	/*background-color: #3b8cff;*/
+	border:1px solid #3b8cff;
+	margin-right: 20px;
+	margin-top: 10px;
+	border-radius: 10px;
+}
+.content-list li a{
+	display: block;
+	font: 15px/20px '微软雅黑';
+	color: #3b8cff;
+	padding:5px 10px;
+}
+form{
+	width: 35%;
+	height: 60px;
+	position: relative;
+}
+.search{
+	width: 70%;
+	height: 30px;
+	border:none;
+	background-color:#f1f2f4;
+	color: gray;
+	border-radius: 20px;
+	padding-left: 20px;
+	margin-right: 40px;
+}
+.fdj{
+	position: absolute;
+	right: 32%;
+	top: 50%;
+	line-height: 0px;
+	color: gray;
+	display: inline-block;
+
+}
+.sort a,.xs a{
+	display: inline-block;
+	font-size: 20px;
+	line-height: 60px;
+	color: gray;
+}
+
+
+/*路径*/
+.route{
+	width：100%;
+	height: 20px;
+	font: 10px/20px '微软雅黑';
+	color: #000;
+	cursor:default; 
+}
+
+/*全选*/
+.select{
+	width: 100%;
+	height: 30px;
+	color: gray;
+	display:flex;
+	justify-content: flex-start;
+	font: 10px/30px '微软雅黑';
+	float: left;
+	cursor: default;
+	position: relative;
+}
+.kuang{
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	border:1px solid gray;
+	margin-left: 30px;
+	margin-right: 10px;
+	margin-top: 9px;
+	font: 9px/12px arial;
+	color: #fff;
+}
+
+
+/*内容区域*/
+.box{
+	width: 95%;
+	height: 83%;
+	padding: 20px;
+	overflow-x: hidden;
+	overflow-y: auto;
+	position: relative;
+}
+.dir{
+	width: 110px;
+	height:130px;
+	background: url(../img/dir-icon.jpg) no-repeat center center;
+	position: relative;	
+	border: 1px solid #fff;
+	float: left;
+	margin-right: 20px;
+	border-radius: 20px;
+}
+.dir:hover .chose{
+	display: block;
+}
+.dir-name{
+	width: 110px;
+	height: 15px;
+	text-align: center;
+	font: 10px/15px '微软雅黑';
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	cursor: default;
+}
+.chose{
+	width: 14px;
+	height: 14px;
+	border: 1px solid #000;
+	position: absolute;
+	left: 4px;
+	top: 4px;
+	display: none;
+	font: 15px/14px arial;
+	cursor: default;
+	border-radius: 50%;
+	color: #fff;
+}
+.changeName{
+	width: 106px;
+	height: 15px;
+	text-align: center;
+	font: 10px/15px '微软雅黑';
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	cursor: default;
+	margin: 0;
+	padding: 0;	
+}
+.active{
+	border:1px solid #3b8cff;
+}
+.active1{
+	background-color: blue;
+	color: #fff;
+}
+.bj{
+	color: #000;
+	display: block;
+}
+.all{
+	color: #000;
+	background-color: rgba(0,0,0,0.2)
+	font:15px arial;
+}
+
+/*弹窗样式*/
+.tc{
+	width:200px;
+	height: 50px;
+	border-radius: 5px;
+	background-color: rgba(0,0,0,0.2);
+	position: fixed;
+	left: 45%;
+	top: 30%;
+}
+.moveList{
+	width: 300px;
+	height: 500px;
+	border:1px solid #000;
+	display: none;
+	position: absolute;
+	left: calc(50% - 150px);
+	top: calc(50% - 250px);
+	background-color:rgba(0,0,0,0.1);
+	border-radius:20px;
+}
+.moveList li{
+	width: 270px;
+	font: 20px/50px '微软雅黑';
+	padding-left: 30px
+}
+.qd,.cancal{
+	border: 1px solid #000;
+	padding: 5px 10px;
+}
+
+
+/*文件列表样式*/
+
+.dir-list{
+	width: 100%;
+	height: 50px;
+	display: flex;
+	justify-content: flex-start;
+	align-content: center;
+	position: relative;
+	border: 1px solid #fff;
+}
+.kuang1{
+    width: 12px;
+    height: 12px;
+    border: 1px solid gray;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 9px;
+    font: 9px/12px arial;
+}
+.pic{
+	width: 30px;
+	height: 30px;
+	margin-right: 20px;
+}
+.item,.size,.riqi{
+	font: 15px/30px '微软雅黑';
+}
+.size{
+	position: absolute;
+	right:430px;
+	top: 0px;
+}
+.riqi{
+	position: absolute;
+	right: 65px;
+	top:0px;
+}
+.size1{
+	position: absolute;
+	right: 465px;
+	top:0px;
+}
+.riqi1{
+	position: absolute;
+	right: 120px;
+	top:0px;
+}
+.changeName1{
+	width: 106px;
+	height: 15px;
+	text-align: center;
+	font: 10px/15px '微软雅黑';
+	position: absolute;
+	left: 70px;
+	top: 8px;
+	cursor: default;
+	margin: 0;
+	padding: 0;	
+}
+.kuangxuan{
+	border: 1px dotted blue;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
