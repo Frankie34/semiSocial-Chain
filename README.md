@@ -23,8 +23,11 @@
 运行demo操作
 
 cd ～/myapp/
+
 npm install
+
 DEBUG=myapp  npm start
+
 浏览器访问 http://localhost:3000/
 
 浏览器访问 http://localhost:3000/projectV2/sign3.html
