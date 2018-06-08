@@ -17,3 +17,14 @@
 根据各自需求，实现用户之间对接，从而形成（从服务提供商到用户）全新的生态链: 
 
 服务提供商收获新的用户获取方式，用户收到更符号个人喜好的服务推荐。
+
+# 使用说明
+
+运行demo操作
+
+cd ～/myapp/
+npm install
+DEBUG=myapp  npm start
+浏览器访问 http://localhost:3000/
+
+浏览器访问 http://localhost:3000/projectV2/sign3.html
